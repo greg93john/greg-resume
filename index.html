@@ -11,10 +11,11 @@
   <link rel="manifest" href="/manifest.json">
   <title>My Resume</title>
   <script defer="" src="/static/js/bundle.js"></script>
-  <link rel="stylesheet" type="text/css" href="css/index.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Assistant&family=Karla&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+  <script src="https://kit.fontawesome.com/136d0adab5.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -101,20 +102,53 @@
         </div>
 
         <div class="my-resume-row text-center px-5 py-3">
+          
           <div class="card text-center border-dark mx-5">
+            
             <div class="card-header border-dark">
               <h1 class="text-center row-title">Resume Document</h1>
             </div>
+
             <div class="card-body">
-              <div class="d-flex justify-content-center">
-                <div class="card border-dark">
-                  <iframe title="gregResumeDocument" class="rounded" width="800" height="850"
-                  src="https://docs.google.com/document/d/e/2PACX-1vRm9XVRUDV_5mbO36icSE6K3-Tl46Tw-OEYagma7M0Gc2JcpSj-NlH4Ea6iBvzOnA/pub?embedded=true">
-                </iframe>
-                </div>
+              
+              <div class="row d-flex justify-content-center">
+                
+                  <div class="col-8 offset-2">                    
+                    <div class="docment-preview-container container">
+                      
+                      <div class="card border-dark">
+                        <iframe title="gregResumeDocument" class="rounded" height="850"
+                          src="https://docs.google.com/document/d/e/2PACX-1vRm9XVRUDV_5mbO36icSE6K3-Tl46Tw-OEYagma7M0Gc2JcpSj-NlH4Ea6iBvzOnA/pub?embedded=true">
+                        </iframe>
+                      </div>
+
+                    </div>
+                  </div>
+
+                  <div class="col-2 d-flex align-items-center justify-content-center">
+
+                        <div class="container">
+
+                          <div class="row">
+
+                            <div class="col">
+                              <button class="btn btn-block btn-primary" onclick="location.href='https://drive.google.com/uc?export=download&id=1NWzXETkdh908HqyfJlz0tj4aQMlPA3pW'">
+                                <i class="fa-solid fa-download"></i> | Download
+                              </button>
+                            </div>
+                            
+                          </div>
+    
+                        </div>
+
+                  </div>
+                
               </div>
+
             </div>
+
           </div>
+        
         </div>
 
       </main>

@@ -17,6 +17,10 @@ code {
   min-height: 100vh;
 }
 
+.docment-preview-container {
+  max-width: 800px;
+}
+
 .main-view {
   margin-bottom: 0;
   vertical-align: top;

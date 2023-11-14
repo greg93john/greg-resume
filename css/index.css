@@ -24,15 +24,22 @@ code {
 .main-view {
   margin-bottom: 0;
   vertical-align: top;
-}
-
-.my-resume-row {
   background-color: #d3d3d3;
 }
 
-.my-work-row {
-  background-color: #d3d3d3;
+/*
+.my-resume-section {
+  
 }
+
+.my-skills-section {
+
+}
+
+.my-work-section {
+  
+} 
+*/
 
 .row-title {
   font-family: 'Assistant', sans-serif;

@@ -9,7 +9,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="manifest" href="/manifest.json">
-  <title>My Resume</title>
+  <title>Greg Johnson</title>
   <script defer="" src="/static/js/bundle.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -42,10 +42,10 @@
 
       <main class="main-view">
 
-        <div class="my-work-row px-5 py-3">
+        <section class="my-work-section px-5 py-3">
           <div class="card text-center border-dark">
             <div class="card-header border-dark">
-              <h1 class="text-center row-title">My Work</h1>
+              <h1 class="row-title">My Work</h1>
             </div>
             <div class="card-body">
               <div class="container">
@@ -99,63 +99,77 @@
               </div>
             </div>
           </div>
-        </div>
+        </section>
 
-        <div class="my-resume-row text-center px-5 py-3">
-          
-          <div class="card text-center border-dark mx-5">
-            
+        <!-- <section class="my-skills-section px-5 py-3">
+          <div class="card text-center border-dark">
             <div class="card-header border-dark">
-              <h1 class="text-center row-title">Resume Document</h1>
+              <h1 class="row-title">My Skills</h1>
             </div>
 
             <div class="card-body">
-              
+
+            </div>
+
+          </div>
+        </section> -->
+
+        <section class="my-resume-section px-5 py-3">
+          <div class="card text-center border-dark mx-5">
+
+            <div class="card-header border-dark">
+              <h1 class="row-title">Resume Document</h1>
+            </div>
+
+            <div class="card-body">
+
               <div class="row d-flex justify-content-center">
-                
-                  <div class="col-6 offset-2">                    
-                    <div class="docment-preview-container container">
-                      
-                      <div class="card border-dark">
-                        <iframe title="gregResumeDocument" class="rounded" height="850"
-                          src="https://docs.google.com/document/d/e/2PACX-1vRm9XVRUDV_5mbO36icSE6K3-Tl46Tw-OEYagma7M0Gc2JcpSj-NlH4Ea6iBvzOnA/pub?embedded=true">
-                        </iframe>
+
+                <div class="col-6 offset-2">
+                  <div class="docment-preview-container container">
+
+                    <div class="card border-dark">
+                      <iframe title="gregResumeDocument" class="rounded" height="850"
+                        src="https://docs.google.com/document/d/e/2PACX-1vRm9XVRUDV_5mbO36icSE6K3-Tl46Tw-OEYagma7M0Gc2JcpSj-NlH4Ea6iBvzOnA/pub?embedded=true">
+                      </iframe>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="col-2 d-flex align-items-center justify-content-center">
+
+                  <div class="container">
+
+                    <div class="row">
+
+                      <div class="col">
+                        <button class="btn btn-block btn-primary"
+                          onclick="location.href='https://drive.google.com/uc?export=download&id=1NWzXETkdh908HqyfJlz0tj4aQMlPA3pW'">
+                          <i class="fa-solid fa-download"></i> | Download
+                        </button>
                       </div>
 
                     </div>
-                  </div>
-
-                  <div class="col-2 d-flex align-items-center justify-content-center">
-
-                        <div class="container">
-
-                          <div class="row">
-
-                            <div class="col">
-                              <button class="btn btn-block btn-primary" onclick="location.href='https://drive.google.com/uc?export=download&id=1NWzXETkdh908HqyfJlz0tj4aQMlPA3pW'">
-                                <i class="fa-solid fa-download"></i> | Download
-                              </button>
-                            </div>
-
-                          </div>
-    
-                        </div>
 
                   </div>
-                
+
+                </div>
+
               </div>
 
             </div>
 
           </div>
-        
-        </div>
+        </section>
 
       </main>
+
       <footer class="footer fixed-bottom mt-auto py-2 bg-dark bg-gradient">
         <div class="container d-flex justify-content-center"><span class="text-light"><b>Copyright @2015-2023</b></span>
         </div>
       </footer>
+
     </div>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"

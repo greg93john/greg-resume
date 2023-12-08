@@ -6,6 +6,7 @@ body {
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #d3d3d3;
 }
 
 code {
@@ -13,8 +14,8 @@ code {
     monospace;
 }
 
-.App {
-  min-height: 100vh;
+.contact-info > p {
+  font-weight: bold;
 }
 
 .docment-preview-container {
@@ -24,22 +25,12 @@ code {
 .main-view {
   margin-bottom: 0;
   vertical-align: top;
-  background-color: #d3d3d3;
+  display: flow-root;
 }
 
-/*
-.my-resume-section {
-  
+.project-grid-container, .profile-summary-container {
+  min-height: 35vh;
 }
-
-.my-skills-section {
-
-}
-
-.my-work-section {
-  
-} 
-*/
 
 .row-title {
   font-family: 'Assistant', sans-serif;
